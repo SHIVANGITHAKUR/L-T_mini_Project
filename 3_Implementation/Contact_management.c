@@ -7,7 +7,7 @@ void viewContact();
 void Help();
 char fname[20];
 char lname[20];
-char phone_number();
+char phone_number[20];
 
 int main(){
     int choice;
