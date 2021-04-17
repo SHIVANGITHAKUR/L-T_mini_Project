@@ -27,8 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: build
-        run: gcc contact_management.c -o contact_management.exe
+        run: gcc Contact_management.c -o Contact_management.exe
 
       # Runs a set of commands using the runners shell
       - name: Run
-        run: .\contact_management.exe
+        run: .\Contact_management.exe
