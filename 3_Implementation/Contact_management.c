@@ -12,11 +12,11 @@ char phone_number[20];
 int main(){
     int choice;
     printf("\n\n\t----------------------CONTACT MANAGEMENT SYSTEM------------------------");
-    printf("\n\t[1] Add Contact");
-    printf("\n\t[2] View Contact");
+    printf("\n\t[1] Add Contact ");
+    printf("\n\t[2] View Contact ");
     printf("\n\t[3] Help");
     printf("\n\t[4] Exit");
-    printf("\n\tEnter your choice");
+    printf("\n\tEnter your choice : ");
     scanf("%d", &choice);
     switch (choice)
     {
