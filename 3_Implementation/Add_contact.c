@@ -14,7 +14,7 @@ void addContact(){
     scanf("%s", &lname);
     printf("\t Enter Phone Number: ");
     scanf("%s", &phone_number);
-    if(strlen(phone_number)==10){
+    if(strlen(phone_number) == 10){
         FILE *fp;
         fp = fopen("contact.txt","w");
         fputs(fname, fp);
