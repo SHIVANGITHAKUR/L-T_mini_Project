@@ -14,8 +14,8 @@ void viewContact(){
     fgets(rlname, 5, fp);
     fgets(rphone_number, 11, fp);
     printf("\n\t-----------------------List Contact-----------------------");
-    printf("\n\tFirst Name: %s", rfname);
-    printf("\n\tLast Name: %s", rlname);
-    printf("\n\t Phone Number: %s", rphone_number);
+    printf("\n\tFirst Name: %s ", rfname);
+    printf("\n\tLast Name: %s ", rlname);
+    printf("\n\t Phone Number: %s ", rphone_number);
     main();
 }
