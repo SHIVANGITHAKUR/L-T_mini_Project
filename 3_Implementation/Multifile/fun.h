@@ -34,4 +34,4 @@ void addContact();
  */
 void viewContact();
 
-#endif    /*  __FUN_H__  */
+#endif    /*  __FUN_H__ */
