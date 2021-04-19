@@ -4,7 +4,7 @@
 #include "fun.h"
 
 void viewContact(){
-    //system("cls");
+    system("cls");
     char rfname[20];
     char rlname[20];
     char rphone_number[20];

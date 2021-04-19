@@ -9,8 +9,8 @@
  * 
  */
 
-#ifndef _FUN_H_
-#define _FUN_H_
+#ifndef __FUN_H__
+#define __FUN_H__
 
 /**
  * @brief Funtion for adding contact
@@ -34,5 +34,4 @@ void addContact();
  */
 void viewContact();
 
-#endif    /*  _FUN_H_   */
-
+#endif    /*  __FUN_H__  */
